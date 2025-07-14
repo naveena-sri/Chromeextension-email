@@ -12,7 +12,7 @@ import java.util.ArrayList;
 @Service
 public class GeminiService {
 
-    private final String API_KEY = "AIzaSyBm70wUqrDti1re9j3Arq9LCqRr4DB3_yU";
+    private final String API_KEY = "Your_api_key";
     private final String URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=" + API_KEY;
 
     public GeminiResponse generateReply(GeminiRequest incomingRequest) {
